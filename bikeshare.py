@@ -207,6 +207,7 @@ def user_stats(df):
         gender_types = df['Gender'].value_counts()
         print(gender_types)
     except:
+        # Incase the dataset is missing the gender data this message will be displayed
         print('No Gender data to share')
 
     # Display earliest, most recent, and most common year of birth
@@ -217,6 +218,7 @@ def user_stats(df):
         common_year = df['Birth Year'].mode()[0]
         print((ealiest_year, recent_year, common_year))
     except:
+        # Incase the dataset is missing the year of birth data this message will be displayed
         print('No birth year data to share')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -225,6 +227,7 @@ def user_stats(df):
 
 def get_raw_data(df):
     """Displays of raw data for bikeshare data."""
+
     print('\nRetrieving raw data for bikeshare...\n')
     start_time = time.time()
 
