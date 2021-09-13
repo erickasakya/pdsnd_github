@@ -11,7 +11,10 @@ This project is about a solution that automate user interaction with the data th
 The project have to display statistic and raw data upon user selection with ability to filter them.
 
 ### Files used
-Include the files used
+I used these three files
+    -chicago.csv
+    -new_york_city.csv
+    -washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
