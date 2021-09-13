@@ -59,7 +59,7 @@ def capture_month_filter():
                   'no month filter\n')
     while month not in valid_input:
         month = input(
-            'Invalid input! Which month? (January(Jan), February(Feb), March(Mar), April(Apr), May, June) Type "all" '
+            'Invalid input! Which month? (January(Jan), February(Feb), March(Mar), April(Apr), May, June(Jun)) Type "all" '
             'to apply no month filter\n')
     if month in ['jan', 'feb', 'mar', 'apr', 'jun']:
         return valid_month[month]
